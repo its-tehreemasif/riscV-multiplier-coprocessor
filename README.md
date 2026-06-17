@@ -188,7 +188,7 @@ Generates control signals:
 ## 🏗 System Architecture
 
 The following block diagram shows the complete RV32I processor integrated with the hardware multiplier co-processor:
-
+```text
 +----------------------+
 |   Instruction Memory |
 +----------+-----------+
@@ -228,7 +228,7 @@ The following block diagram shows the complete RV32I processor integrated with t
               +----------------+
               | Register Write |
               +----------------+
-              
+```   
 
 ## 🚀 Key Feature
 
