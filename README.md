@@ -183,8 +183,53 @@ Generates control signals:
   * ALU output
   * Write-back data
 * Validates multiplication + stall behavior
+  
+System Architecture
 
+The following block diagram shows the complete RV32I processor integrated with the hardware multiplier co-processor:
 ---
+
+                 +----------------------+
+                 |   Instruction Memory |
+                 +----------+-----------+
+                            |
+                            v
+                 +----------------------+
+                 |   Program Counter    |
+                 +----------+-----------+
+                            |
+                            v
+                 +----------------------+
+                 |   Control Unit (CU)  |
+                 +----------+-----------+
+                            |
+     +----------------------+----------------------+
+     |                                             |
+     v                                             v
++------------+                            +----------------+
+| Register    |                            | Immediate      |
+| File (RF)   |                            | Generator      |
++------+------|                            +----------------+
+       |                                              
+       |                                              
+       v                                              
++----------------------+                +----------------------+
+|        ALU           |                |   Multiplier         |
+| (Arithmetic/Logic)   |                |   Co-Processor       |
++----------+-----------+                +----------+-----------+
+           |                                       |
+           |                                       |
+           v                                       v
++----------------------+                +----------------------+
+|     Data Memory      |                |   Result / Writeback |
++----------+-----------+                +----------+-----------+
+           |                                       |
+           +----------------------+----------------+
+                                  |
+                                  v
+                         +----------------+
+                         | Register Write |
+                         +----------------+
 
 ## 🚀 Key Feature
 
