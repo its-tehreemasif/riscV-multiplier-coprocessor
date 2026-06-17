@@ -230,7 +230,6 @@ The following block diagram shows the complete RV32I processor integrated with t
                          +----------------+
                          | Register Write |
                          +----------------+
-
 ## 🚀 Key Feature
 
 ✔ Fully functional RV32I processor
