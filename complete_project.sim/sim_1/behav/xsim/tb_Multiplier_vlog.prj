@@ -1,0 +1,22 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../complete_project.srcs/sources_1/new/ALU.sv" \
+"../../../../complete_project.srcs/sources_1/new/AlUcontrol.sv" \
+"../../../../complete_project.srcs/sources_1/new/Branch.sv" \
+"../../../../complete_project.srcs/sources_1/new/CU.sv" \
+"../../../../complete_project.srcs/sources_1/new/DATA_MEM.sv" \
+"../../../../complete_project.srcs/sources_1/new/Imme_gen.sv" \
+"../../../../complete_project.srcs/sources_1/new/Instruc_mem.sv" \
+"../../../../complete_project.srcs/sources_1/new/Multiplier.sv" \
+"../../../../complete_project.srcs/sources_1/new/PC.sv" \
+"../../../../complete_project.srcs/sources_1/new/RF.sv" \
+"../../../../complete_project.srcs/sources_1/new/TOP_MODULE.sv" \
+"../../../../complete_project.srcs/sim_1/new/ALU_TB.sv" \
+"../../../../complete_project.srcs/sim_1/new/tb_TOP_MODULE.sv" \
+"../../../../complete_project.srcs/sim_1/new/tb_Multiplier.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

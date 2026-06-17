@@ -1,0 +1,19 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/DELL/Downloads/complete_project/complete_project/complete_project.sim/sim_1/behav/xsim/glbl.v,1781718102,verilog,,,,glbl,,,,,,,,
+C:/Users/DELL/Downloads/complete_project/complete_project/complete_project.srcs/sim_1/new/ALU_TB.sv,1781718102,systemVerilog,,C:/Users/DELL/Downloads/complete_project/complete_project/complete_project.srcs/sim_1/new/tb_TOP_MODULE.sv,,ALU_TB,,,,,,,,
+C:/Users/DELL/Downloads/complete_project/complete_project/complete_project.srcs/sim_1/new/tb_Multiplier.sv,1781718102,systemVerilog,,,,tb_Multiplier,,,,,,,,
+C:/Users/DELL/Downloads/complete_project/complete_project/complete_project.srcs/sim_1/new/tb_TOP_MODULE.sv,1781718102,systemVerilog,,C:/Users/DELL/Downloads/complete_project/complete_project/complete_project.srcs/sim_1/new/tb_Multiplier.sv,,tb_TOP_MODULE,,,,,,,,
+C:/Users/DELL/Downloads/complete_project/complete_project/complete_project.srcs/sources_1/new/ALU.sv,1781718102,systemVerilog,,C:/Users/DELL/Downloads/complete_project/complete_project/complete_project.srcs/sources_1/new/AlUcontrol.sv,,ALU,,,,,,,,
+C:/Users/DELL/Downloads/complete_project/complete_project/complete_project.srcs/sources_1/new/AlUcontrol.sv,1781718102,systemVerilog,,C:/Users/DELL/Downloads/complete_project/complete_project/complete_project.srcs/sources_1/new/Branch.sv,,AlUcontrol,,,,,,,,
+C:/Users/DELL/Downloads/complete_project/complete_project/complete_project.srcs/sources_1/new/Branch.sv,1781718102,systemVerilog,,C:/Users/DELL/Downloads/complete_project/complete_project/complete_project.srcs/sources_1/new/CU.sv,,Branch,,,,,,,,
+C:/Users/DELL/Downloads/complete_project/complete_project/complete_project.srcs/sources_1/new/CU.sv,1781718102,systemVerilog,,C:/Users/DELL/Downloads/complete_project/complete_project/complete_project.srcs/sources_1/new/DATA_MEM.sv,,CU,,,,,,,,
+C:/Users/DELL/Downloads/complete_project/complete_project/complete_project.srcs/sources_1/new/DATA_MEM.sv,1781718102,systemVerilog,,C:/Users/DELL/Downloads/complete_project/complete_project/complete_project.srcs/sources_1/new/Imme_gen.sv,,DATA_MEM,,,,,,,,
+C:/Users/DELL/Downloads/complete_project/complete_project/complete_project.srcs/sources_1/new/Imme_gen.sv,1781718102,systemVerilog,,C:/Users/DELL/Downloads/complete_project/complete_project/complete_project.srcs/sources_1/new/Instruc_mem.sv,,Imme_gen,,,,,,,,
+C:/Users/DELL/Downloads/complete_project/complete_project/complete_project.srcs/sources_1/new/Instruc_mem.sv,1781718102,systemVerilog,,C:/Users/DELL/Downloads/complete_project/complete_project/complete_project.srcs/sources_1/new/Multiplier.sv,,Instruc_mem,,,,,,,,
+C:/Users/DELL/Downloads/complete_project/complete_project/complete_project.srcs/sources_1/new/Multiplier.sv,1781718102,systemVerilog,,C:/Users/DELL/Downloads/complete_project/complete_project/complete_project.srcs/sources_1/new/PC.sv,,Multiplier,,,,,,,,
+C:/Users/DELL/Downloads/complete_project/complete_project/complete_project.srcs/sources_1/new/PC.sv,1781718103,systemVerilog,,C:/Users/DELL/Downloads/complete_project/complete_project/complete_project.srcs/sources_1/new/RF.sv,,PC,,,,,,,,
+C:/Users/DELL/Downloads/complete_project/complete_project/complete_project.srcs/sources_1/new/RF.sv,1781718103,systemVerilog,,C:/Users/DELL/Downloads/complete_project/complete_project/complete_project.srcs/sources_1/new/TOP_MODULE.sv,,RF,,,,,,,,
+C:/Users/DELL/Downloads/complete_project/complete_project/complete_project.srcs/sources_1/new/TOP_MODULE.sv,1781718103,systemVerilog,,C:/Users/DELL/Downloads/complete_project/complete_project/complete_project.srcs/sim_1/new/ALU_TB.sv,,TOP_MODULE,,,,,,,,
