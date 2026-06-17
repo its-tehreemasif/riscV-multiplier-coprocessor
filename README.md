@@ -184,31 +184,52 @@ Generates control signals:
   * Write-back data
 * Validates multiplication + stall behavior
   
-🔷 System Architecture
 
-The following block diagram shows the complete RV32I processor integrated with the hardware multiplier co-processor:
----
 ## 🏗 System Architecture
 
-```mermaid
-flowchart TD
+The following block diagram shows the complete RV32I processor integrated with the hardware multiplier co-processor:
 
-A[Instruction Memory] --> B[Program Counter]
-B --> C[Control Unit]
++----------------------+
+|   Instruction Memory |
++----------+-----------+
+           |
+           v
++----------------------+
+|   Program Counter    |
++----------+-----------+
+           |
+           v
++----------------------+
+|   Control Unit (CU)  |
++----------+-----------+
+           |
+     +-----+-----+
+     |           |
+     v           v
++------------+  +----------------+
+| Register   |  | Immediate      |
+| File (RF)  |  | Generator      |
++------+-----+  +----------------+
+       |
+       v
++----------------------+  +----------------------+
+|        ALU           |  |   Multiplier         |
+| (Arithmetic/Logic)   |  |   Co-Processor       |
++----------+-----------+  +----------+-----------+
+           |                         |
+           v                         v
++----------------------+  +----------------------+
+|     Data Memory      |  |   Result / Writeback |
++----------+-----------+  +----------+-----------+
+           |                         |
+           +-----------+-------------+
+                       |
+                       v
+              +----------------+
+              | Register Write |
+              +----------------+
+              
 
-C --> D[Register File]
-C --> E[Immediate Generator]
-
-D --> F[ALU]
-D --> G[Multiplier Co-Processor]
-
-F --> H[Data Memory]
-G --> I[Multiplier Result]
-
-H --> J[Write Back]
-I --> J
-
-J --> D
 ## 🚀 Key Feature
 
 ✔ Fully functional RV32I processor
