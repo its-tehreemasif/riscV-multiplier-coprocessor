@@ -184,7 +184,7 @@ Generates control signals:
   * Write-back data
 * Validates multiplication + stall behavior
   
-System Architecture
+🔷 System Architecture
 
 The following block diagram shows the complete RV32I processor integrated with the hardware multiplier co-processor:
 ---
